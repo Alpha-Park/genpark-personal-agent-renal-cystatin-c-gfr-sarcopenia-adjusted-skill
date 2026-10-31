@@ -1,0 +1,16 @@
+{
+  "name": "genpark-personal-agent-renal-cystatin-c-gfr-sarcopenia-adjusted-skill",
+  "version": "1.0.0",
+  "title": "Cystatin-C & Creatinine CKD-EPI Sarcopenia-Adjusted eGFR Skill",
+  "category": "Personal Agent (Bio / Renal Longevity & Sarcopenia)",
+  "description": "Calculates combined 2021 CKD-EPI Creatinine-Cystatin C equation, computes Sarcopenia Index (Creatinine / Cystatin C ratio), and removes muscle-mass bias from kidney longevity scores.",
+  "author": {
+    "name": "GenPark Ecosystem",
+    "url": "https://www.genpark.ai",
+    "linkedin": "https://www.linkedin.com/company/92955550"
+  },
+  "mcp_tools": [
+    "calculate_sarcopenia_adjusted_egfr"
+  ],
+  "dependencies": []
+}
